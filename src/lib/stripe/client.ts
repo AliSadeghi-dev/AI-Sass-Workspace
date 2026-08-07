@@ -15,5 +15,5 @@ export function getStripe() {
 }
 
 export function getAppOrigin() {
-  return process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000";
+  return process.env.NEXT_PUBLIC_APP_URL;
 }
