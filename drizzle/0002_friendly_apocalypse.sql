@@ -1,0 +1,1 @@
+ALTER TABLE "prompts" ADD COLUMN "is_favorite" boolean DEFAULT false NOT NULL;
